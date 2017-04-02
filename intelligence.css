@@ -1,0 +1,9 @@
+body{
+  background-color: #FFE4E1;
+}
+span.serif {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+span.sansserif{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}

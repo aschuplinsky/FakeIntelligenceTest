@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Anna Schuplinsky-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" href="intelligence.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Color</title>
+    <script type="text/javascript" src="intelligence.js"></script>
+  </head>
+  <body lang="en-US" onload="main();">
+    <h1>
+      <span class="serif">What is the next color in the rainbow?</span>
+    </h1>
+    <div class="container-fluid">
+      <form class="form-horizontal">
+            <label for="colorText" class="col-sm-2 control-label">What is the correct answer?</label>
+        <div class="col-sm-8">
+          <div>
+            red
+          </div>
+          <div>
+            orange
+          </div>
+          <div class="textbox">
+            <div class="form-group" id="colorGroup">
+              <div class="col-sm-8">
+                <input type="text" id="col" class="form-control input-md"
+                    placeholder="What is the correct color" />
+                <span id="colorError" class="control-label hidden-message">
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            green
+          </div>
+          <div>
+            blue
+          </div>
+          <div>
+            purple
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

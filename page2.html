@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--Anna Schuplinsky-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Letter Multiplication</title>
+    <script type="text/javascript" src="intelligence.js"></script>
+  </head>
+  <body lang="en-US" onload="lettermain();">
+    <h1>
+      <span class="serif">Can you solve this Letter Equation?</span>
+    </h1>
+    <div class="container-fluid">
+      <form class="form-horizontal">
+            <label for="letterText" class="col-sm-2 control-label">What is the correct answer?</label>
+        <div class="col-sm-8">
+          <div>
+            A x B = 2
+          </div>
+          <div>
+            B x C = 6
+          </div>
+          <div>
+            A x C = 3
+          </div>
+          <div>
+            B X D = 8
+          </div>
+          <div>
+            A x D = 4
+          <div class="textbox">
+            <div class="form-group" id="letterGroup">
+              <div class="col-sm-4">
+                C x D =<input type="text" id="let" class="form-control input-md"
+                    placeholder="What is the correct color" />
+                <span id="letterError" class="control-label hidden-message">
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
